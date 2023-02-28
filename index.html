@@ -8,7 +8,7 @@
   <font face="Proxima Nova, Helvetica, Arial, Verdana, sans-serif">
     <div style='margin-top:30px'></div>
     <div style='margin-left:30px'>
-<p style="font-size: 40px">My name is <b>FEDERICO BOSSI</b>. <br> I'm a <b>Service</b> and <b>Business Designer</b> graduated at Politecnico di Milano.</p>
+<p style="font-size: 40px">Hi! My name is <b>FEDERICO BOSSI</b>. <br> I'm a <b>Service</b> and <b>Business Designer</b> graduated at Politecnico di Milano.</p>
 
     <div style='height:30px'></div>
 
@@ -27,7 +27,7 @@
 
 <div class="bottomleft">
   <p>
-    <a style="color:#000000"  target="_blank" href="https://it.linkedin.com/in/federico-bossi-559b2b138">LinkedIn</a> | <a style="color:#000000"  target="_blank" href="mailto:federicocitbo@gmail.com">Mail</a>
+    <a id="LinkedIn" onmouseover="mouseOver3()" onmouseout="mouseOut3()" style="color:#000000"  target="_blank" href="https://it.linkedin.com/in/federico-bossi-559b2b138">LinkedIn</a> | <a id="mail" onmouseover="mouseOver4()" onmouseout="mouseOut4()" style="color:#000000"  target="_blank" href="mailto:federicocitbo@gmail.com">Mail</a>
   </p>
 </div>
 
@@ -37,7 +37,11 @@
 
   </font>
 
-</html>
+<div style='height:50px'></div>
+
+<div id="app"></div>
+
+  </html>
 
 <script>
 
@@ -52,6 +56,19 @@ function mouseOver2() {
 }
 function mouseOut2() {
   document.getElementById("portfolio").style.color = "black";
+}
+
+function mouseOver3() {
+  document.getElementById("LinkedIn").style.color = "#D0D0D0";
+}
+function mouseOut3() {
+  document.getElementById("LinkedIn").style.color = "black";
+}
+function mouseOver4() {
+  document.getElementById("mail").style.color = "#D0D0D0";
+}
+function mouseOut4() {
+  document.getElementById("mail").style.color = "black";
 }
 
 </script>

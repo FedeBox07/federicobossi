@@ -1,13 +1,13 @@
 .bottomright{
-position:absolute;
+position:fixed;
 bottom:0px;
 right:30px;
-font-size: 20px
+font-size: 25px
 }
 
 .bottomleft{
-position:absolute;
+position:fixed;
 bottom:0px;
 left:30px;
-font-size: 20px
+font-size: 25px
 }
