@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 
+<link rel="stylesheet" href="./styleAM.css">
+
 <html>
 
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <font face="Proxima Nova, Helvetica, Arial, Verdana, sans-serif">
+
+      <div style='margin-top:30px'></div>
+
+      <div style='margin-left:30px'>
+<p style="font-size: 40px"><b>ABOUT ME (IN BRIEF)</b></p>
+      </div>
+
+<div class="bottomleft">
+  <p>
+    <a id="LinkedIn" onmouseover="mouseOver1()" onmouseout="mouseOut1()" style="color:#000000"  target="_blank" href="https://it.linkedin.com/in/federico-bossi-559b2b138">LinkedIn</a> |
+    <a id="mail" onmouseover="mouseOver2()" onmouseout="mouseOut2()" style="color:#000000"  target="_blank" href="mailto:federicocitbo@gmail.com">Mail</a> |
+    <a id="home" onmouseover="mouseOver3()" onmouseout="mouseOut3()" style="color:#000000"  href="index.html">Home</a>
+  </p>
+</div>
+
+<div class="bottomright">
+  <p> &copy; Federico Bossi, 2023 </p>
+</div>
+
 </body>
 
 </html>
+
+<script>
+
+function mouseOver1() {
+  document.getElementById("LinkedIn").style.color = "#ffffff";
+}
+function mouseOut1() {
+  document.getElementById("LinkedIn").style.color = "black";
+}
+function mouseOver2() {
+  document.getElementById("mail").style.color = "#ffffff";
+}
+function mouseOut2() {
+  document.getElementById("mail").style.color = "black";
+}
+function mouseOver3() {
+  document.getElementById("home").style.color = "#ffffff";
+}
+function mouseOut3() {
+  document.getElementById("home").style.color = "black";
+}
+
+</script>
