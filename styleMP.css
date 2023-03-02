@@ -1,15 +1,20 @@
 .bottomright{
-position:fixed;
-bottom:0px;
-right:30px;
-font-size: 30px
+	position:fixed;
+	bottom:0px;
+	right:30px;
+	font-size: 30px
 }
 
 .bottomleft{
-position:fixed;
-bottom:0px;
-left:30px;
-font-size: 30px
+	position:fixed;
+	bottom:0px;
+	left:30px;
+	font-size: 30px
+}
+
+.font{
+	color: black;
+	text-decoration: none;
 }
 
 body {
